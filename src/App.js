@@ -5,14 +5,15 @@ import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Login from './Pages/Login/Login';
 import Contact from './Pages/Contact/Contact';
+import Appointment from './Pages/Appointment/Appointment';
 
 function App() {
   return (
-    <div>
+    <div className='max-w-7xl mx-auto px-12'>
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="appontment" element={<About />} />
+        <Route path="appointment" element={<Appointment></Appointment>} />
         <Route path="reviews" element={<About />} />
         <Route path="contact" element={<Contact></Contact>} />
         <Route path="about" element={<About />} />
