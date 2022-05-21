@@ -20,7 +20,7 @@ const ManageDoctors = () => {
         <div>
             <h2 className="text-2xl">Manage Doctors: {doctors.length}</h2>
             <div className="overflow-x-auto">
-                <table className="table w-full">
+                    <table className="table w-full">
                     <thead>
                         <tr>
                             <th></th>
